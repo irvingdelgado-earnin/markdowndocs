@@ -17,7 +17,7 @@ I need you to act as a **Senior iOS Software Architect** for the `Activehours` c
     -   **Critical Fixes** (Bugs, crashes, architecture violations).
     -   **Suggestions/Nits** (Naming, style, magic strings).
     -   **Debatable Points** (Where you might need to argue *against* the change if it hurts the architecture).
-    -   **Bot/AI Feedback**: Treat with lower priority than human feedback (especially from senior reviewers like `RogelioE`, `calvinjian-earnin`, or `jonathanwingerlang-earnin`).
+    -   **Bot/AI Feedback**: Treat with lower priority than human feedback (especially from senior reviewers)
 3.  **Implement** the changes safely.
 4.  **Verify** using project-specific test commands.
 
