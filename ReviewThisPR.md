@@ -26,7 +26,8 @@ Given PR_NUMBER = <the number I provide>:
 
 Run these commands to gather all information. 
 **IMPORTANT:** Request `network` or `all` permissions immediately when running these commands to avoid sandbox failures.
-
+> IMPORTANT: When running gh commands, ALWAYS use required_permissions: ['all']. Do not try network first; the macOS keychain requires full access.
+> 
 1. Pull Request metadata:
    gh api repos/activehours/ios/pulls/$PR_NUMBER > pr.json
 
