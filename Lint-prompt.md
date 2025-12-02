@@ -1,74 +1,89 @@
-You are operating inside Cursor, which gives you the ability to run shell commands.
+You are operating inside Cursor and you have full ability to run shell commands, read and modify files, generate patches, and apply changes.
 
-Your task is to review ONLY the Swift code changes introduced in the current branch and ensure that NO new SwiftLint violations are added. You must NOT fix or modify any existing lint violations from the base branch.
+Your mission:
+AUTOMATICALLY detect and fix ONLY the SwiftLint violations introduced by the current branch—never pre-existing ones—using REAL SwiftLint output, not inference.
 
-====================================================================
-# STEP 1 — GATHER THE DIFF AUTOMATICALLY
-
-Run the following command to collect all Swift changes against the base branch:
-
-git diff main...HEAD -- '*.swift'
-
-If the project uses a different primary branch (e.g., develop), automatically detect it using `git symbolic-ref refs/remotes/origin/HEAD` and substitute accordingly.
-
-Use the output of the git diff as the SOLE source of truth for code changes.
-
-Do NOT ask me to paste a diff.
-Do NOT say that no diff was provided.
-Do NOT request additional input.
-You must gather the diff yourself by running the command above.
+You must ALWAYS follow this workflow:
 
 ====================================================================
-# STEP 2 — SWIFTLINT RULESET (STRICT — DO NOT DEVIATE)
+# STEP 1 — DETECT THE BASE BRANCH
+Automatically determine the default base branch using:
 
-Use the following full SwiftLint rules as the authoritative configuration when evaluating violations:
+git symbolic-ref refs/remotes/origin/HEAD | sed 's@refs/remotes/origin/@@'
 
-[INSERT FULL RULESET EXACTLY AS PROVIDED]
-
-Auto-correct formatting rules (secondary pass):
-
-[INSERT AUTOCORRECT RULESET EXACTLY AS PROVIDED]
+Call the base branch: BASE_BRANCH.
 
 ====================================================================
-# STEP 3 — CRITICAL LOGIC: APPLY RULES **ONLY TO NEW VIOLATIONS**
+# STEP 2 — COLLECT CHANGED SWIFT FILES
+Gather the list of Swift files changed in this branch:
 
-You must follow these constraints:
+git diff --name-only ${BASE_BRANCH}...HEAD -- '*.swift'
 
-1. Examine ONLY the lines modified in the git diff.
-2. A violation should be fixed ONLY IF:
-   • It appears in a line added or modified by this branch, AND  
-   • The violation did NOT exist in the base branch.
-3. Pre-existing violations MUST be ignored.
-4. Unchanged code MUST NOT be modified.
-5. Make the smallest possible fix to satisfy the lint rule.
-6. Do not refactor or improve code unless required by the lint rule.
+If none are found, proceed with empty analysis but NEVER ask the user for content.
 
 ====================================================================
-# STEP 4 — REQUIRED OUTPUT FORMAT
+# STEP 3 — RUN SWIFTLINT ON CHANGED FILES
+For each changed file, run:
+
+swiftlint lint --reporter json --path <FILE>
+
+Gather all outputs into a combined JSON structure.
+
+This REAL SwiftLint JSON output is the ONLY valid source of lint violation data.
+You must NEVER infer or guess lint violations.
+
+====================================================================
+# STEP 4 — IDENTIFY WHICH VIOLATIONS ARE *NEW*
+A violation is considered NEW when BOTH conditions are true:
+
+1. The violation appears on a line that was modified or added in this branch.
+   Use:
+      git diff ${BASE_BRANCH}...HEAD -U0 <FILE>
+   to detect modified/added lines precisely (line-level).
+2. The violation did NOT exist in the base version of the file.
+   Compare against:
+      git show ${BASE_BRANCH}:<FILE>
+   or ensure the violation location corresponds to changed context.
+
+You MUST ignore:
+- Violations on unchanged lines
+- Violations already present in the base branch
+- Violations outside the diff region
+- Violations in files that didn't change
+
+====================================================================
+# STEP 5 — FIX ONLY NEWLY INTRODUCED VIOLATIONS
+For each new violation:
+- Apply the smallest possible fix.
+- Produce a unified diff patch.
+- Do NOT modify unrelated code.
+- Do NOT refactor.
+- Do NOT reformat unless required by the rule.
+
+If a file contains no new violations, do not output a patch for that file.
+
+====================================================================
+# STEP 6 — APPLY PATCHES WHEN APPROVED
+When your patch is ready, present it clearly and in unified diff format.
+If I say "apply", you must apply the patch using Cursor’s applyChanges or patch tool.
+
+====================================================================
+# STEP 7 — VERIFY CLEANLINESS
+After applying patches, rerun SwiftLint on the changed files.
+If any NEW violations remain, repeat fixes until zero remain.
+
+Do NOT stop until:
+- All newly introduced violations are fixed
+- No pre-existing lines were modified
+- SwiftLint reports success
+
+====================================================================
+# STEP 8 — OUTPUT FORMAT
+Always output these sections:
 
 ### SECTION A — Summary
+- Number of changed files
 - Number of newly introduced violations
-- Number of violations fixed
-- Notes on any ambiguous cases
+- Number of fixes applied
 
-### SECTION B — Corrected Patch (Unified Diff)
-Provide the corrected version of ONLY the modified code, formatted as a unified diff ready to apply with `git apply`.
-
-### SECTION C — New Violation Audit
-For EACH violation introduced by this branch:
-- Rule name
-- Original snippet
-- Corrected snippet
-- Clear explanation of the issue and fix
-
-### SECTION D — Confirmation
-State exactly:
-
-“All newly introduced SwiftLint violations have been fixed. No pre-existing violations were modified.”
-
-====================================================================
-
-BEGIN NOW:
-1. Run the git diff command above.
-2. Analyze the results.
-3. Produce the output exactly as instructed.
+### SECTION B — Unified Patch (ONLY if fixes are needed)
