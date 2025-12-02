@@ -1,16 +1,15 @@
 You are reviewing Swift code changes in the CURRENT BRANCH ONLY.
 
-Your goal is to ensure that **NO new SwiftLint violations are introduced** by the branch.  
-You MUST NOT fix or modify ANY existing violations that were already present in the base branch.
+Your job is to ensure that this branch does NOT introduce any new SwiftLint violations.
 
-You must follow these instructions EXACTLY and WITHOUT DEVIATION:
+IMPORTANT:
+- Fix ONLY lint violations that are NEWLY INTRODUCED by this branch.
+- DO NOT modify or fix any pre-existing lint violations that were already in the base branch.
+- DO NOT modify any lines that were not changed in this branch.
+- Always choose the minimal fix that satisfies the rule.
 
 ====================================================================
-# 1 — SwiftLint Configuration (Primary Lint Pass)
-Use the following SwiftLint rule set as the authoritative source of truth.  
-These rules determine what counts as a violation:
-
-[ SAME CONFIG AS ABOVE — FULL BLOCK INCLUDED BELOW ]
+# 1 — SwiftLint Configuration (Primary Lint Rules)
 
 only_rules:
   - anyobject_protocol
@@ -138,7 +137,7 @@ custom_rules:
     included: ".*\\.swift"
     name: "print usage"
     regex: "((\\bprint)|(Swift\\.print))\\s*\\("
-    message: "print is not allowed due to PCI compliance and security reasons. Use LoggingManagement."
+    message: "print is not allowed due to PCI compliance and security reasons. Use LoggingManagement API."
     severity: error
 
   disable_debugPrint:
@@ -158,7 +157,7 @@ custom_rules:
   enhanced_assertion:
     included: ".*\\.swift"
     excluded: ".*Tests\\.swift"
-    name: "Prefer `Assert` over `assert`"
+    name: "Prefer `Assert` over `assert`."
     regex: "\\sassert(|ionFailure)\\("
     message: "Use Assert methods so failures are caught in production."
     severity: warning
@@ -173,20 +172,7 @@ custom_rules:
     severity: warning
 
 ====================================================================
-# 2 — Critical Rule: FIX ONLY VIOLATIONS INTRODUCED IN THIS BRANCH
-You must adhere to the following logic STRICTLY:
-
-1. Compare the modified lines against the base version of the file.  
-2. If the SAME violation was already present in the base branch, IGNORE IT.  
-   - DO NOT repair, rewrite, or refactor old violations.  
-   - Do not modify unchanged lines.  
-3. ONLY fix violations that were introduced, modified, or newly created by the current branch changes.
-
-This is absolutely mandatory.
-
-====================================================================
-# 3 — Additional Auto-Fix Config (Formatting Rules Only)
-When performing formatting fixes, you may only use rules from the autocorrect config:
+# 2 — Auto-correct Formatting Rules (Secondary Fix Pass)
 
 only_rules:
   - comment_spacing
@@ -220,32 +206,40 @@ only_rules:
   - void_return
 
 ====================================================================
+# 3 — Critical Logic: Fix ONLY New Violations
+
+You MUST:
+
+1. Compare the changed lines against the base version (represented in the diff).
+2. Fix *only* violations introduced or modified by this branch.
+3. Do NOT fix or touch any violations present in unchanged lines.
+4. Do NOT rewrite or refactor code unless needed to resolve a lint rule.
+5. Make minimal, targeted fixes.
+
+====================================================================
 # 4 — Required Output Format
 
-After analyzing the diff or updated file I provide, respond with:
-
 ### SECTION A — Summary
-- Number of new lint violations introduced in this branch  
-- Number of violations fixed  
-- Notes on any ambiguous cases requiring manual review  
+- Number of new violations introduced  
+- Number fixed  
+- Any ambiguous cases that may require human review  
 
-### SECTION B — Corrected Code (ONLY modified blocks)
-Provide ONLY corrected versions of code hunks changed in this PR.
+### SECTION B — Corrected Code
+- Provide corrected versions ONLY for the modified code hunks
 
-### SECTION C — Violation Report (NEW VIOLATIONS ONLY)
-For each violation introduced by this branch:
-- rule triggered  
-- original code (snippet)  
-- corrected code  
-- explanation  
+### SECTION C — New Violation Audit
+For EACH new violation this branch introduced:
+- Rule name  
+- Original code snippet  
+- Corrected code snippet  
+- Explanation  
 
 ### SECTION D — Final Confirmation
-Explicitly state:
+State exactly:
 
-**“All newly introduced SwiftLint violations have been fixed.  
-No pre-existing violations were modified.”**
+**“All newly introduced SwiftLint violations have been fixed. No pre-existing violations were modified.”**
 
 ====================================================================
 
-WAIT for me to paste the diff or updated file contents.  
-Do not take action until the next message.
+Below are the branch changes to analyze:
+<INSERT DIFF OR UPDATED FILE CONTENTS HERE>
