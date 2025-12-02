@@ -1,8 +1,5 @@
 # PR Feedback Handler Prompt
 
-**Copy and paste the section below into Cursor.**
-
----
 
 **Context:**
 I need you to act as a **Senior iOS Software Architect** for the `Activehours` codebase. I have a Pull Request that needs feedback analysis and resolution.
