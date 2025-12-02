@@ -1,64 +1,64 @@
-You are reviewing Swift code changes in the CURRENT BRANCH ONLY.  
-Analyze the code contained in THIS MESSAGE.  
-Do NOT expect or request additional messages or diff content.  
-Everything you need is already provided in this message.
+You are reviewing Swift code changes in the CURRENT BRANCH ONLY.
 
-Your goal:  
-**Identify and fix ONLY the SwiftLint violations introduced by these branch changes, without modifying any pre-existing violations.**
+Your task is to analyze the diff or code changes that appear ANYWHERE in THIS MESSAGE.  
+Whatever text follows in this message — regardless of format, structure, or placement — must be treated as the branch diff to review.  
+NEVER request more code. NEVER say that no code was provided.  
+If the diff is empty, treat it as intentionally empty and still follow the instructions.
 
-You must follow these instructions EXACTLY:
+Your goal:
+• Identify ONLY the SwiftLint violations INTRODUCED by these branch changes  
+• Fix ONLY those newly introduced violations  
+• DO NOT fix or modify any pre-existing violations from the base branch  
+• DO NOT modify any unchanged lines  
+• Apply the smallest possible fix to satisfy the rule
 
 ====================================================================
 # 1 — SwiftLint Configuration (Primary Rules)
-[... SAME FULL RULESET AS BEFORE — OMITTED HERE FOR BREVITY IN THIS EXPLANATION]
-(Keep the full rule block exactly as provided previously.)
+[ INSERT THE FULL RULESET BLOCK YOU PROVIDED ]
+(Keep the entire config exactly as before.)
 
 ====================================================================
 # 2 — Auto-correct Formatting Rules
-[... SAME AUTOCORRECT RULESET AS BEFORE]
+[ INSERT THE AUTOCORRECT RULESET BLOCK ]
 
 ====================================================================
-# 3 — Critical Logic: FIX ONLY NEWLY INTRODUCED VIOLATIONS
+# 3 — Critical Logic Rules
 
-Apply the following constraints strictly:
-
-1. Only examine and fix issues IN THE CODE INCLUDED IN THIS MESSAGE.
-2. Treat any unchanged code or existing lint violations as OUT OF SCOPE.
-3. Fix only lint violations that appear **because of the new or modified lines in this branch**.
-4. Never fix existing violations that were already present before this branch.
-5. Never refactor or change code unless required to satisfy a lint rule.
-6. Always apply the minimal possible fix.
+You MUST:
+1. Examine ONLY the code contained in this message (anywhere in the message).  
+2. Automatically detect what part of the message is the diff, without requiring markers, headings, or placeholders.  
+3. Fix ONLY SwiftLint violations introduced or modified in this branch.  
+4. Completely ignore all pre-existing lint issues.  
+5. Never refactor unrelated code.  
+6. Never modify lines that were not changed in this branch.  
+7. Always apply the minimal fix required.
 
 ====================================================================
 # 4 — Required Output Format
 
-### SECTION A — Summary
-- Count of newly introduced violations  
+### SECTION A — Summary  
+- Count of new violations introduced  
 - Count of violations fixed  
-- Any special notes  
+- Any ambiguity or human review notes  
 
-### SECTION B — Corrected Code
-Provide corrected versions ONLY of the modified code blocks included in this message.
+### SECTION B — Corrected Code  
+Provide corrected versions ONLY for the modified code introduced in this branch.  
+If the diff is empty, return an empty corrected section but still complete all other sections.
 
-### SECTION C — New Violation Audit
-For each new violation:
+### SECTION C — New Violation Audit  
+For each NEW violation:  
 - Rule triggered  
 - Original snippet  
 - Corrected snippet  
 - Explanation  
 
-### SECTION D — Final Confirmation
-State the following sentence EXACTLY:
+### SECTION D — Final Confirmation  
+State exactly:
 
-**“All newly introduced SwiftLint violations have been fixed. No pre-existing violations were modified.”**
+“All newly introduced SwiftLint violations have been fixed. No pre-existing violations were modified.”
 
 ====================================================================
 
-Analyze the code included below as the branch changes.  
-Do not ask for more content.  
-Do not wait for another message.  
-
---- BEGIN BRANCH CHANGES ---
-
-
---- END BRANCH CHANGES ---
+Now analyze ALL remaining text in THIS MESSAGE as the branch diff.  
+Do NOT ask for any additional diff or code.  
+Begin your analysis immediately.
