@@ -1,64 +1,74 @@
-You are reviewing Swift code changes in the CURRENT BRANCH ONLY.
+You are operating inside Cursor, which gives you the ability to run shell commands.
 
-Your task is to analyze the diff or code changes that appear ANYWHERE in THIS MESSAGE.  
-Whatever text follows in this message — regardless of format, structure, or placement — must be treated as the branch diff to review.  
-NEVER request more code. NEVER say that no code was provided.  
-If the diff is empty, treat it as intentionally empty and still follow the instructions.
-
-Your goal:
-• Identify ONLY the SwiftLint violations INTRODUCED by these branch changes  
-• Fix ONLY those newly introduced violations  
-• DO NOT fix or modify any pre-existing violations from the base branch  
-• DO NOT modify any unchanged lines  
-• Apply the smallest possible fix to satisfy the rule
+Your task is to review ONLY the Swift code changes introduced in the current branch and ensure that NO new SwiftLint violations are added. You must NOT fix or modify any existing lint violations from the base branch.
 
 ====================================================================
-# 1 — SwiftLint Configuration (Primary Rules)
-[ INSERT THE FULL RULESET BLOCK YOU PROVIDED ]
-(Keep the entire config exactly as before.)
+# STEP 1 — GATHER THE DIFF AUTOMATICALLY
+
+Run the following command to collect all Swift changes against the base branch:
+
+git diff main...HEAD -- '*.swift'
+
+If the project uses a different primary branch (e.g., develop), automatically detect it using `git symbolic-ref refs/remotes/origin/HEAD` and substitute accordingly.
+
+Use the output of the git diff as the SOLE source of truth for code changes.
+
+Do NOT ask me to paste a diff.
+Do NOT say that no diff was provided.
+Do NOT request additional input.
+You must gather the diff yourself by running the command above.
 
 ====================================================================
-# 2 — Auto-correct Formatting Rules
-[ INSERT THE AUTOCORRECT RULESET BLOCK ]
+# STEP 2 — SWIFTLINT RULESET (STRICT — DO NOT DEVIATE)
+
+Use the following full SwiftLint rules as the authoritative configuration when evaluating violations:
+
+[INSERT FULL RULESET EXACTLY AS PROVIDED]
+
+Auto-correct formatting rules (secondary pass):
+
+[INSERT AUTOCORRECT RULESET EXACTLY AS PROVIDED]
 
 ====================================================================
-# 3 — Critical Logic Rules
+# STEP 3 — CRITICAL LOGIC: APPLY RULES **ONLY TO NEW VIOLATIONS**
 
-You MUST:
-1. Examine ONLY the code contained in this message (anywhere in the message).  
-2. Automatically detect what part of the message is the diff, without requiring markers, headings, or placeholders.  
-3. Fix ONLY SwiftLint violations introduced or modified in this branch.  
-4. Completely ignore all pre-existing lint issues.  
-5. Never refactor unrelated code.  
-6. Never modify lines that were not changed in this branch.  
-7. Always apply the minimal fix required.
+You must follow these constraints:
+
+1. Examine ONLY the lines modified in the git diff.
+2. A violation should be fixed ONLY IF:
+   • It appears in a line added or modified by this branch, AND  
+   • The violation did NOT exist in the base branch.
+3. Pre-existing violations MUST be ignored.
+4. Unchanged code MUST NOT be modified.
+5. Make the smallest possible fix to satisfy the lint rule.
+6. Do not refactor or improve code unless required by the lint rule.
 
 ====================================================================
-# 4 — Required Output Format
+# STEP 4 — REQUIRED OUTPUT FORMAT
 
-### SECTION A — Summary  
-- Count of new violations introduced  
-- Count of violations fixed  
-- Any ambiguity or human review notes  
+### SECTION A — Summary
+- Number of newly introduced violations
+- Number of violations fixed
+- Notes on any ambiguous cases
 
-### SECTION B — Corrected Code  
-Provide corrected versions ONLY for the modified code introduced in this branch.  
-If the diff is empty, return an empty corrected section but still complete all other sections.
+### SECTION B — Corrected Patch (Unified Diff)
+Provide the corrected version of ONLY the modified code, formatted as a unified diff ready to apply with `git apply`.
 
-### SECTION C — New Violation Audit  
-For each NEW violation:  
-- Rule triggered  
-- Original snippet  
-- Corrected snippet  
-- Explanation  
+### SECTION C — New Violation Audit
+For EACH violation introduced by this branch:
+- Rule name
+- Original snippet
+- Corrected snippet
+- Clear explanation of the issue and fix
 
-### SECTION D — Final Confirmation  
+### SECTION D — Confirmation
 State exactly:
 
 “All newly introduced SwiftLint violations have been fixed. No pre-existing violations were modified.”
 
 ====================================================================
 
-Now analyze ALL remaining text in THIS MESSAGE as the branch diff.  
-Do NOT ask for any additional diff or code.  
-Begin your analysis immediately.
+BEGIN NOW:
+1. Run the git diff command above.
+2. Analyze the results.
+3. Produce the output exactly as instructed.
