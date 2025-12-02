@@ -20,7 +20,9 @@ I need you to act as a **Senior iOS Software Architect** for the `Activehours` c
 
 ### Step 1: Fetch Feedback
 First, run this script to download the raw data from GitHub. Replace `PR_NUMBER` with my PR number if I haven't provided it.
+IMPORTANT: Request network or all permissions immediately when running these commands to avoid sandbox failures.
 
+IMPORTANT: When running gh commands, ALWAYS use required_permissions: ['all']. Do not try network first; the macOS keychain requires full access.
 ```bash
 #!/bin/bash
 # REPLACE WITH YOUR PR NUMBER IF NEEDED
