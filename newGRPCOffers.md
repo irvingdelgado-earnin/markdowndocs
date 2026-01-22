@@ -46,6 +46,7 @@ Run the appropriate gradle task to generate Kotlin stubs.
 ```
 ./gradlew :marketplace:svc-offers:build -x test
 ```
+OffersGrpcKt.kt
 ## 3. Create a New Request Handler
 
 File: `/marketplace/svc-offers/src/main/kotlin/com/earnin/service/offers/grpc/handlers/GetOfferStatsRequestHandler.kt`
