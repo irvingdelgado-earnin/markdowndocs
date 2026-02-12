@@ -1,0 +1,582 @@
+{
+    "data": {
+        "offers": {
+            "getPromotions": {
+                "promotions": [
+                    {
+                        "placement": {
+                            "placementId": "offers-list-preview-header-first",
+                            "layoutPolicy": {
+                                "type": "SINGLE_ITEM",
+                                "itemCount": 1
+                            }
+                        },
+                        "offers": [
+                            {
+                                "listingId": "cash-out-early-pay",
+                                "listingVersion": 1,
+                                "category": "EARN",
+                                "isEligible": true,
+                                "isEnrolled": false,
+                                "score": 1.0,
+                                "offerActions": [
+                                    {
+                                        "actionContext": "VIEW_ELIGIBLE_OFFER_DETAILS",
+                                        "actionType": "OFFER_ACTION_TYPE_APP_NAVIGATION",
+                                        "url": "earnin://onboarding/cashout"
+                                    }
+                                ],
+                                "templates": [
+                                    {
+                                        "templateId": "offers-list-preview-header-1",
+                                        "experiments": [],
+                                        "properties": [],
+                                        "viewElements": [
+                                            {
+                                                "key": "card-illustration",
+                                                "value": {
+                                                    "value": "https://d3jlszua3q4cyr.cloudfront.net/content/mobile/cross-sell/calendar%2Bcoin.svg",
+                                                    "source": "VIEW_ELEMENT_SOURCE_CONSTANT",
+                                                    "replacements": []
+                                                }
+                                            },
+                                            {
+                                                "key": "cta-context-action",
+                                                "value": {
+                                                    "value": "VIEW_ELIGIBLE_OFFER_DETAILS",
+                                                    "source": "VIEW_ELEMENT_SOURCE_CONSTANT",
+                                                    "replacements": []
+                                                }
+                                            },
+                                            {
+                                                "key": "cta-icon",
+                                                "value": {
+                                                    "value": "arrow-right",
+                                                    "source": "VIEW_ELEMENT_SOURCE_CONSTANT",
+                                                    "replacements": []
+                                                }
+                                            },
+                                            {
+                                                "key": "cta-text",
+                                                "value": {
+                                                    "value": "Set up",
+                                                    "source": "VIEW_ELEMENT_SOURCE_CONSTANT",
+                                                    "replacements": []
+                                                }
+                                            },
+                                            {
+                                                "key": "gradient-end-color",
+                                                "value": {
+                                                    "value": "#FFF8B3",
+                                                    "source": "VIEW_ELEMENT_SOURCE_CONSTANT",
+                                                    "replacements": []
+                                                }
+                                            },
+                                            {
+                                                "key": "gradient-start-color",
+                                                "value": {
+                                                    "value": "#FFF063",
+                                                    "source": "VIEW_ELEMENT_SOURCE_CONSTANT",
+                                                    "replacements": []
+                                                }
+                                            },
+                                            {
+                                                "key": "title-text",
+                                                "value": {
+                                                    "value": "Get paid up to\n2 days earlier",
+                                                    "source": "VIEW_ELEMENT_SOURCE_CONSTANT",
+                                                    "replacements": []
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "placement": {
+                            "placementId": "offers-list-preview-header-second",
+                            "layoutPolicy": {
+                                "type": "SINGLE_ITEM",
+                                "itemCount": 1
+                            }
+                        },
+                        "offers": [
+                            {
+                                "listingId": "auto-insurance-uCNuBe",
+                                "listingVersion": 1,
+                                "category": "MANAGE",
+                                "isEligible": true,
+                                "isEnrolled": false,
+                                "score": 1.0,
+                                "offerActions": [
+                                    {
+                                        "actionContext": "VIEW_ELIGIBLE_OFFER_DETAILS",
+                                        "actionType": "OFFER_ACTION_TYPE_APP_NAVIGATION",
+                                        "url": "earnin://promos/auto-insurance"
+                                    }
+                                ],
+                                "templates": [
+                                    {
+                                        "templateId": "offers-list-preview-header-1",
+                                        "experiments": [],
+                                        "properties": [],
+                                        "viewElements": [
+                                            {
+                                                "key": "card-illustration",
+                                                "value": {
+                                                    "value": "https://d3jlszua3q4cyr.cloudfront.net/content/mobile/promos/auto_insurance/homeScreen3.png",
+                                                    "source": "VIEW_ELEMENT_SOURCE_CONSTANT",
+                                                    "replacements": []
+                                                }
+                                            },
+                                            {
+                                                "key": "cta-context-action",
+                                                "value": {
+                                                    "value": "VIEW_ELIGIBLE_OFFER_DETAILS",
+                                                    "source": "VIEW_ELEMENT_SOURCE_CONSTANT",
+                                                    "replacements": []
+                                                }
+                                            },
+                                            {
+                                                "key": "cta-icon",
+                                                "value": {
+                                                    "value": "arrow-right",
+                                                    "source": "VIEW_ELEMENT_SOURCE_CONSTANT",
+                                                    "replacements": []
+                                                }
+                                            },
+                                            {
+                                                "key": "cta-text",
+                                                "value": {
+                                                    "value": "Explore quotes",
+                                                    "source": "VIEW_ELEMENT_SOURCE_CONSTANT",
+                                                    "replacements": []
+                                                }
+                                            },
+                                            {
+                                                "key": "gradient-end-color",
+                                                "value": {
+                                                    "value": "#E3F2FF",
+                                                    "source": "VIEW_ELEMENT_SOURCE_CONSTANT",
+                                                    "replacements": []
+                                                }
+                                            },
+                                            {
+                                                "key": "gradient-start-color",
+                                                "value": {
+                                                    "value": "#C7E3FF",
+                                                    "source": "VIEW_ELEMENT_SOURCE_CONSTANT",
+                                                    "replacements": []
+                                                }
+                                            },
+                                            {
+                                                "key": "title-text",
+                                                "value": {
+                                                    "value": "Save up to $800/yr\non car insurance",
+                                                    "source": "VIEW_ELEMENT_SOURCE_CONSTANT",
+                                                    "replacements": []
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "placement": {
+                            "placementId": "offers-list-preview-header-third",
+                            "layoutPolicy": {
+                                "type": "SINGLE_ITEM",
+                                "itemCount": 1
+                            }
+                        },
+                        "offers": [
+                            {
+                                "listingId": "credit-monitoring-TpF6YA",
+                                "listingVersion": 1,
+                                "category": "BUILD",
+                                "isEligible": true,
+                                "isEnrolled": false,
+                                "score": 1.0,
+                                "offerActions": [
+                                    {
+                                        "actionContext": "VIEW_ELIGIBLE_OFFER_DETAILS",
+                                        "actionType": "OFFER_ACTION_TYPE_APP_NAVIGATION",
+                                        "url": "earnin://onboarding/credit-monitoring"
+                                    }
+                                ],
+                                "templates": [
+                                    {
+                                        "templateId": "offers-list-preview-header-1",
+                                        "experiments": [],
+                                        "properties": [],
+                                        "viewElements": [
+                                            {
+                                                "key": "card-illustration",
+                                                "value": {
+                                                    "value": "https://d3jlszua3q4cyr.cloudfront.net/content/mobile/cross-sell/credit-monitoring.svg",
+                                                    "source": "VIEW_ELEMENT_SOURCE_CONSTANT",
+                                                    "replacements": []
+                                                }
+                                            },
+                                            {
+                                                "key": "cta-context-action",
+                                                "value": {
+                                                    "value": "VIEW_ELIGIBLE_OFFER_DETAILS",
+                                                    "source": "VIEW_ELEMENT_SOURCE_CONSTANT",
+                                                    "replacements": []
+                                                }
+                                            },
+                                            {
+                                                "key": "cta-icon",
+                                                "value": {
+                                                    "value": "arrow-right",
+                                                    "source": "VIEW_ELEMENT_SOURCE_CONSTANT",
+                                                    "replacements": []
+                                                }
+                                            },
+                                            {
+                                                "key": "cta-text",
+                                                "value": {
+                                                    "value": "Sign up for free",
+                                                    "source": "VIEW_ELEMENT_SOURCE_CONSTANT",
+                                                    "replacements": []
+                                                }
+                                            },
+                                            {
+                                                "key": "gradient-end-color",
+                                                "value": {
+                                                    "value": "#EDFADE",
+                                                    "source": "VIEW_ELEMENT_SOURCE_CONSTANT",
+                                                    "replacements": []
+                                                }
+                                            },
+                                            {
+                                                "key": "gradient-start-color",
+                                                "value": {
+                                                    "value": "#D9F5BA",
+                                                    "source": "VIEW_ELEMENT_SOURCE_CONSTANT",
+                                                    "replacements": []
+                                                }
+                                            },
+                                            {
+                                                "key": "title-text",
+                                                "value": {
+                                                    "value": "Stay up-to-date on\nyour credit score",
+                                                    "source": "VIEW_ELEMENT_SOURCE_CONSTANT",
+                                                    "replacements": []
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "placement": {
+                            "placementId": "offers-list-preview-card",
+                            "layoutPolicy": {
+                                "type": "STACKED_ITEM",
+                                "itemCount": 4
+                            }
+                        },
+                        "offers": [
+                            {
+                                "listingId": "adjoe-playtime-p4z6wd",
+                                "listingVersion": 1,
+                                "category": "EARN",
+                                "isEligible": true,
+                                "isEnrolled": false,
+                                "score": 0.95,
+                                "offerActions": [
+                                    {
+                                        "actionContext": "VIEW_ELIGIBLE_OFFER_DETAILS",
+                                        "actionType": "OFFER_ACTION_TYPE_APP_NAVIGATION",
+                                        "url": "earnin://promos/adjoe-playtime"
+                                    }
+                                ],
+                                "templates": [
+                                    {
+                                        "templateId": "offers-list-preview-card-1",
+                                        "experiments": [],
+                                        "properties": [],
+                                        "viewElements": [
+                                            {
+                                                "key": "card-illustration",
+                                                "value": {
+                                                    "value": "https://d3jlszua3q4cyr.cloudfront.net/content/mobile/marketplace/top-offer/adjoe-top-offer.svg",
+                                                    "source": "VIEW_ELEMENT_SOURCE_CONSTANT",
+                                                    "replacements": []
+                                                }
+                                            },
+                                            {
+                                                "key": "cta-context-action",
+                                                "value": {
+                                                    "value": "VIEW_ELIGIBLE_OFFER_DETAILS",
+                                                    "source": "VIEW_ELEMENT_SOURCE_CONSTANT",
+                                                    "replacements": []
+                                                }
+                                            },
+                                            {
+                                                "key": "cta-icon",
+                                                "value": {
+                                                    "value": "arrow-right",
+                                                    "source": "VIEW_ELEMENT_SOURCE_CONSTANT",
+                                                    "replacements": []
+                                                }
+                                            },
+                                            {
+                                                "key": "cta-text",
+                                                "value": {
+                                                    "value": "Play and earn",
+                                                    "source": "VIEW_ELEMENT_SOURCE_CONSTANT",
+                                                    "replacements": []
+                                                }
+                                            },
+                                            {
+                                                "key": "subtitle-text",
+                                                "value": {
+                                                    "value": "Play games like Dice Dreams",
+                                                    "source": "VIEW_ELEMENT_SOURCE_CONSTANT",
+                                                    "replacements": []
+                                                }
+                                            },
+                                            {
+                                                "key": "title-text",
+                                                "value": {
+                                                    "value": "Earn up to $100/mo\nby playing games",
+                                                    "source": "VIEW_ELEMENT_SOURCE_CONSTANT",
+                                                    "replacements": []
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "listingId": "affordable-benefits-LIOI3z",
+                                "listingVersion": 1,
+                                "category": "MANAGE",
+                                "isEligible": true,
+                                "isEnrolled": false,
+                                "score": 0.88,
+                                "offerActions": [
+                                    {
+                                        "actionContext": "VIEW_ELIGIBLE_OFFER_DETAILS",
+                                        "actionType": "OFFER_ACTION_TYPE_APP_NAVIGATION",
+                                        "url": "earnin://promos/affordable-benefits"
+                                    }
+                                ],
+                                "templates": [
+                                    {
+                                        "templateId": "offers-list-preview-card-1",
+                                        "experiments": [],
+                                        "properties": [],
+                                        "viewElements": [
+                                            {
+                                                "key": "card-illustration",
+                                                "value": {
+                                                    "value": "https://d3jlszua3q4cyr.cloudfront.net/content/mobile/cross-sell/avibra.svg",
+                                                    "source": "VIEW_ELEMENT_SOURCE_CONSTANT",
+                                                    "replacements": []
+                                                }
+                                            },
+                                            {
+                                                "key": "cta-context-action",
+                                                "value": {
+                                                    "value": "VIEW_ELIGIBLE_OFFER_DETAILS",
+                                                    "source": "VIEW_ELEMENT_SOURCE_CONSTANT",
+                                                    "replacements": []
+                                                }
+                                            },
+                                            {
+                                                "key": "cta-icon",
+                                                "value": {
+                                                    "value": "arrow-right",
+                                                    "source": "VIEW_ELEMENT_SOURCE_CONSTANT",
+                                                    "replacements": []
+                                                }
+                                            },
+                                            {
+                                                "key": "cta-text",
+                                                "value": {
+                                                    "value": "Learn more",
+                                                    "source": "VIEW_ELEMENT_SOURCE_CONSTANT",
+                                                    "replacements": []
+                                                }
+                                            },
+                                            {
+                                                "key": "subtitle-text",
+                                                "value": {
+                                                    "value": "Dental, vision & more savings",
+                                                    "source": "VIEW_ELEMENT_SOURCE_CONSTANT",
+                                                    "replacements": []
+                                                }
+                                            },
+                                            {
+                                                "key": "title-text",
+                                                "value": {
+                                                    "value": "Protect your health\nwith $1 per benefit",
+                                                    "source": "VIEW_ELEMENT_SOURCE_CONSTANT",
+                                                    "replacements": []
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "listingId": "personal-loan-LSs8VT",
+                                "listingVersion": 1,
+                                "category": "MANAGE",
+                                "isEligible": true,
+                                "isEnrolled": false,
+                                "score": 0.88,
+                                "offerActions": [
+                                    {
+                                        "actionContext": "VIEW_ELIGIBLE_OFFER_DETAILS",
+                                        "actionType": "OFFER_ACTION_TYPE_APP_NAVIGATION",
+                                        "url": "earnin://promos/personal-loan"
+                                    }
+                                ],
+                                "templates": [
+                                    {
+                                        "templateId": "offers-list-preview-card-1",
+                                        "experiments": [],
+                                        "properties": [],
+                                        "viewElements": [
+                                            {
+                                                "key": "card-illustration",
+                                                "value": {
+                                                    "value": "https://d3jlszua3q4cyr.cloudfront.net/content/mobile/cross-sell/amone.svg",
+                                                    "source": "VIEW_ELEMENT_SOURCE_CONSTANT",
+                                                    "replacements": []
+                                                }
+                                            },
+                                            {
+                                                "key": "cta-context-action",
+                                                "value": {
+                                                    "value": "VIEW_ELIGIBLE_OFFER_DETAILS",
+                                                    "source": "VIEW_ELEMENT_SOURCE_CONSTANT",
+                                                    "replacements": []
+                                                }
+                                            },
+                                            {
+                                                "key": "cta-icon",
+                                                "value": {
+                                                    "value": "arrow-right",
+                                                    "source": "VIEW_ELEMENT_SOURCE_CONSTANT",
+                                                    "replacements": []
+                                                }
+                                            },
+                                            {
+                                                "key": "cta-text",
+                                                "value": {
+                                                    "value": "Learn more",
+                                                    "source": "VIEW_ELEMENT_SOURCE_CONSTANT",
+                                                    "replacements": []
+                                                }
+                                            },
+                                            {
+                                                "key": "subtitle-text",
+                                                "value": {
+                                                    "value": "Powered by AmOne",
+                                                    "source": "VIEW_ELEMENT_SOURCE_CONSTANT",
+                                                    "replacements": []
+                                                }
+                                            },
+                                            {
+                                                "key": "title-text",
+                                                "value": {
+                                                    "value": "Get personalized loan\noffers, starting at $2K",
+                                                    "source": "VIEW_ELEMENT_SOURCE_CONSTANT",
+                                                    "replacements": []
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "listingId": "financial-calculators-XyZ123",
+                                "listingVersion": 1,
+                                "category": "BUILD",
+                                "isEligible": true,
+                                "isEnrolled": false,
+                                "score": 0.88,
+                                "offerActions": [
+                                    {
+                                        "actionContext": "VIEW_ELIGIBLE_OFFER_DETAILS",
+                                        "actionType": "OFFER_ACTION_TYPE_APP_NAVIGATION",
+                                        "url": "earnin://promos/financial-calculators"
+                                    }
+                                ],
+                                "templates": [
+                                    {
+                                        "templateId": "offers-list-preview-card-1",
+                                        "experiments": [],
+                                        "properties": [],
+                                        "viewElements": [
+                                            {
+                                                "key": "card-illustration",
+                                                "value": {
+                                                    "value": "https://d3jlszua3q4cyr.cloudfront.net/content/mobile/promos/financial_calculators/illustration.svg",
+                                                    "source": "VIEW_ELEMENT_SOURCE_CONSTANT",
+                                                    "replacements": []
+                                                }
+                                            },
+                                            {
+                                                "key": "cta-context-action",
+                                                "value": {
+                                                    "value": "VIEW_ELIGIBLE_OFFER_DETAILS",
+                                                    "source": "VIEW_ELEMENT_SOURCE_CONSTANT",
+                                                    "replacements": []
+                                                }
+                                            },
+                                            {
+                                                "key": "cta-icon",
+                                                "value": {
+                                                    "value": "arrow-right",
+                                                    "source": "VIEW_ELEMENT_SOURCE_CONSTANT",
+                                                    "replacements": []
+                                                }
+                                            },
+                                            {
+                                                "key": "cta-text",
+                                                "value": {
+                                                    "value": "Explore",
+                                                    "source": "VIEW_ELEMENT_SOURCE_CONSTANT",
+                                                    "replacements": []
+                                                }
+                                            },
+                                            {
+                                                "key": "subtitle-text",
+                                                "value": {
+                                                    "value": "Loan payoff, mortgage and more",
+                                                    "source": "VIEW_ELEMENT_SOURCE_CONSTANT",
+                                                    "replacements": []
+                                                }
+                                            },
+                                            {
+                                                "key": "title-text",
+                                                "value": {
+                                                    "value": "Plan your budget with\nfinancial calculators",
+                                                    "source": "VIEW_ELEMENT_SOURCE_CONSTANT",
+                                                    "replacements": []
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}
