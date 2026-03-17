@@ -1,0 +1,979 @@
+{
+  "homeScreenProducts": [
+    {
+      "id": 1,
+      "productId": 108,
+      "icon": "currency-dollar-shield",
+      "title": "Get balance alerts",
+      "version": 0,
+      "backgroundColor": "#D5C2FE",
+      "audience": "ewaUsers-notEnrolled",
+      "homeTileOrder": 6
+    },
+    {
+      "id": 1,
+      "productId": 108,
+      "icon": "currency-dollar-shield",
+      "title": "Get balance alerts",
+      "version": 0,
+      "backgroundColor": "#D5C2FE",
+      "audience": "cashoutLinkUsers-notEnrolled",
+      "homeTileOrder": 6
+    },
+    {
+      "id": 1,
+      "productId": 108,
+      "icon": "currency-dollar-shield",
+      "title": "Balance alerts",
+      "version": 0,
+      "backgroundColor": "#D5C2FE",
+      "audience": "ewaUsers-enrolled",
+      "homeTileOrder": 6
+    },
+    {
+      "id": 1,
+      "productId": 108,
+      "icon": "currency-dollar-shield",
+      "title": "Balance alerts",
+      "version": 0,
+      "backgroundColor": "#D5C2FE",
+      "audience": "cashoutLinkUsers-enrolled",
+      "homeTileOrder": 6
+    },
+    {
+      "id": 2,
+      "productId": 104,
+      "icon": "credit-monitoring",
+      "title": "Track credit score",
+      "version": 0,
+      "backgroundColor": "#B7ECBD",
+      "audience": "eligibleForAll",
+      "homeTileOrder": 5
+    },
+    {
+      "id": 3,
+      "productId": 103,
+      "icon": "car",
+      "title": "Auto insurance",
+      "version": 0,
+      "backgroundColor": "#FFF3AF",
+      "audience": "discoveryPageAndTileControl",
+      "homeTileOrder": 3
+    },
+    {
+      "id": 3,
+      "productId": 103,
+      "icon": "car",
+      "title": "Auto insurance",
+      "version": 0,
+      "backgroundColor": "#FFF3AF",
+      "audience": "discoveryPageAndTileVariant1",
+      "homeTileOrder": 3
+    },
+    {
+      "id": 3,
+      "productId": 103,
+      "icon": "car",
+      "title": "Auto insurance",
+      "version": 0,
+      "backgroundColor": "#FFF3AF",
+      "audience": "discoveryPageAndTileVariant2",
+      "homeTileOrder": 3
+    },
+    {
+      "id": 4,
+      "productId": 106,
+      "icon": "savings",
+      "title": "Set money aside",
+      "version": 0,
+      "backgroundColor": "#D5C2FE",
+      "audience": "eligibleForAll",
+      "homeTileOrder": 8
+    },
+    {
+      "id": 5,
+      "productId": 110,
+      "icon": "direct-deposit",
+      "title": "Get paid sooner",
+      "version": 0,
+      "backgroundColor": "#FFF3AF",
+      "audience": "enrollmentNotStarted",
+      "homeTileOrder": 0
+    },
+    {
+      "id": 5,
+      "productId": 110,
+      "icon": "direct-deposit",
+      "title": "Early Pay",
+      "version": 0,
+      "backgroundColor": "#FFF3AF",
+      "audience": "enrollmentCompleteDDActive",
+      "homeTileOrder": 0
+    },
+    {
+      "id": 6,
+      "productId": 112,
+      "icon": "bills",
+      "title": "Get bill reminders",
+      "version": 0,
+      "backgroundColor": "#8CD98E",
+      "audience": "eligibleForAll",
+      "homeTileOrder": 7
+    },
+    {
+      "id": 7,
+      "productId": 116,
+      "icon": "make-payment",
+      "title": "Earn cash rewards",
+      "version": 0,
+      "backgroundColor": "#FFF3AF",
+      "audience": "adjoeControl",
+      "homeTileOrder": 2
+    },
+    {
+      "id": 8,
+      "productId": 117,
+      "icon": "coins-hand",
+      "title": "Explore loan offers",
+      "version": 0,
+      "backgroundColor": "#FFF3AF",
+      "audience": "eligibleForAll",
+      "homeTileOrder": 4
+    },
+    {
+      "id": 10,
+      "productId": 102,
+      "icon": "credit-card",
+      "title": "EarnIn Card",
+      "version": 0,
+      "backgroundColor": "#FFF3AF",
+      "audience": "earnInCardEligible",
+      "homeTileOrder": 1
+    },
+    {
+      "id": 11,
+      "productId": 102,
+      "icon": "credit-card",
+      "title": "EarnIn Card",
+      "version": 0,
+      "backgroundColor": "#FFF3AF",
+      "audience": "earnInCardWaitlistEligible",
+      "homeTileOrder": 1
+    },
+    {
+      "id": 12,
+      "productId": 116,
+      "icon": "make-payment",
+      "title": "Earn cash rewards",
+      "version": 0,
+      "backgroundColor": "#FFF3AF",
+      "audience": "adjoeStats",
+      "homeTileOrder": 2
+    },
+    {
+      "id": 13,
+      "productId": 116,
+      "icon": "make-payment",
+      "title": "Earn cash rewards",
+      "version": 0,
+      "backgroundColor": "#FFF3AF",
+      "audience": "adjoeTopPlayers",
+      "homeTileOrder": 2
+    }
+  ],
+  "discoveryPageProducts": [
+    {
+      "id": 1,
+      "productId": 100,
+      "image": "product-transfer-out",
+      "icon": "daily-earnings-arrow",
+      "title": "Transfer your<br/>earnings",
+      "subtitle": "Make every day payday with no interest and no credit check",
+      "descriptions": [
+        {
+          "label": "Tap into $100/day, transferred instantly",
+          "icon": "direct-deposit-side"
+        },
+        {
+          "label": "Get paid as you work, up to $750/pay period",
+          "icon": "daily-earnings-arrow"
+        },
+        {
+          "label": "No interest, no credit check",
+          "icon": "check-circle"
+        }
+      ],
+      "likeCount": 5045202,
+      "version": 0,
+      "groupId": 1,
+      "audience": "ewaUsers",
+      "listOrder": 1
+    },
+    {
+      "id": 1,
+      "productId": 100,
+      "image": "product-transfer-out",
+      "icon": "daily-earnings-arrow",
+      "title": "Access cash",
+      "subtitle": "Make every day payday with no interest and no credit check",
+      "descriptions": [
+        {
+          "label": "Tap into $100/day, transferred instantly",
+          "icon": "direct-deposit-side"
+        },
+        {
+          "label": "Get paid as you work, up to $750/pay period",
+          "icon": "daily-earnings-arrow"
+        },
+        {
+          "label": "No interest, no credit check",
+          "icon": "check-circle"
+        }
+      ],
+      "likeCount": 5045202,
+      "version": 0,
+      "groupId": 1,
+      "audience": "cashoutLinkUsers",
+      "listOrder": 1
+    },
+    {
+      "id": 2,
+      "productId": 104,
+      "image": "product-credit-monitoring",
+      "icon": "credit-monitoring",
+      "title": "Track your<br/>credit score",
+      "subtitle": "The zero-cost credit monitoring tool to help you reach your credit goals.",
+      "descriptions": [
+        {
+          "label": "See what’s impacting your score and how you can improve it",
+          "icon": "credit-monitoring"
+        },
+        {
+          "label": "Celebrate your wins with regular progress reports",
+          "icon": "referral"
+        },
+        {
+          "label": "It’s free for you to use and... it won’t impact your credit",
+          "icon": "check-circle"
+        }
+      ],
+      "likeCount": 433032,
+      "version": 0,
+      "groupId": 2,
+      "audience": "eligibleForAll",
+      "listOrder": 1,
+      "legalDisclaimer": {
+        "legalText": "By tapping Get Started I agree to the EarnIn Credit Monitoring Services and Privacy Policy. I give EarnIn permission to get credit profile information from each credit reporting agency. I understand this will not impact my credit in any way. I understand that EarnIn will use my information to verify my identity, and provide credit monitoring, reporting, and scoring products to me.",
+        "shouldShowCheckBox": false,
+        "shouldShowDisclaimerAfterTransition": false,
+        "externalLinks": {
+          "Services": "https://www.earnin.com/evolve-bank-and-trust/tip-yourself/account-terms",
+          "Privacy Policy": "https://www.earnin.com/evolve-bank-and-trust/electronic-communications-consent"
+        }
+      }
+    },
+    {
+      "id": 3,
+      "productId": 105,
+      "image": "product-balance-alert",
+      "icon": "bell-notification",
+      "title": "Get bank<br/>balance alerts",
+      "subtitle": "Stay ahead with real-time bank balance alerts",
+      "descriptions": [
+        {
+          "label": "No need to constantly check your balance",
+          "icon": "currency-dollar-shield"
+        },
+        {
+          "label": "Set your minimum balance alert",
+          "icon": "bell-notification"
+        }
+      ],
+      "likeCount": 2036892,
+      "version": 0,
+      "groupId": 2,
+      "audience": "ewaUsers",
+      "listOrder": 2
+    },
+    {
+      "id": 3,
+      "productId": 105,
+      "image": "product-balance-alert",
+      "icon": "bell-notification",
+      "title": "Get bank<br/>balance alerts",
+      "subtitle": "Stay ahead with real-time bank balance alerts",
+      "descriptions": [
+        {
+          "label": "No need to constantly check your balance",
+          "icon": "currency-dollar-shield"
+        },
+        {
+          "label": "Set your minimum balance alert",
+          "icon": "bell-notification"
+        }
+      ],
+      "likeCount": 2036892,
+      "version": 0,
+      "groupId": 2,
+      "audience": "cashoutLinkUsers",
+      "listOrder": 2
+    },
+    {
+      "id": 4,
+      "productId": 106,
+      "image": "product-savings",
+      "icon": "savings",
+      "title": "Set money<br/>aside",
+      "subtitle": "With Tip Yourself, you set up your own virtual Tip Jar, where you can put money towards your financial goals.",
+      "descriptions": [
+        {
+          "label": "Transfer money from your bank to a Tip Jar",
+          "icon": "piggy-bank"
+        },
+        {
+          "label": "Tip Yourself Account funds and Tip Jars are held with Evolve Bank & Trust, member FDIC.",
+          "icon": "currency-dollar-shield"
+        }
+      ],
+      "likeCount": 1000000,
+      "version": 0,
+      "groupId": 3,
+      "audience": "eligibleForAll",
+      "listOrder": 1,
+      "legalDisclaimer": {
+        "legalText": "I have read and agree to the Evolve Bank & Trust Privacy Policy, Evolve Bank & Trust Customer Account Terms, Electronic Communications Consent, and Pre-Authorization Form",
+        "shouldShowCheckBox": true,
+        "shouldShowDisclaimerAfterTransition": true,
+        "externalLinks": {
+          "Evolve Bank & Trust Privacy Policy": "https://docs.google.com/gview?embedded=true&url=https://assets.ctfassets.net/9bmss1jcvj9u/1mYKoZAQ0TeUDs8xyeq1ej/93b1e00de1dcb4781d84d8d7b1da90b4/Evolve.pdf",
+          "Evolve Bank & Trust Customer Account Terms": "https://www.earnin.com/evolve-bank-and-trust/tip-yourself/account-terms",
+          "Electronic Communications Consent": "https://www.earnin.com/evolve-bank-and-trust/electronic-communications-consent",
+          "Pre-Authorization Form": "https://www.earnin.com/evolve-bank-and-trust/tip-yourself/funds-transfer-authorization"
+        }
+      }
+    },
+    {
+      "id": 5,
+      "productId": 107,
+      "image": "product-balance-shield",
+      "icon": "currency-dollar-shield",
+      "title": "Avoid<br/>overdraft fees",
+      "subtitle": "Get automatic coverage when it counts",
+      "descriptions": [
+        {
+          "label": "Automatic transfers of $100 when your balance runs low",
+          "icon": "daily-earnings-arrow"
+        },
+        {
+          "label": "Customize or turn off at any time",
+          "icon": "settings-dial-side"
+        }
+      ],
+      "likeCount": 2000000,
+      "version": 0,
+      "groupId": 3,
+      "audience": "ewaUsers",
+      "listOrder": 2
+    },
+    {
+      "id": 5,
+      "productId": 107,
+      "image": "product-balance-shield",
+      "icon": "currency-dollar-shield",
+      "title": "Protect your<br/>balance",
+      "subtitle": "Get automatic coverage when it counts",
+      "descriptions": [
+        {
+          "label": "Automatic transfers of $100 when your balance runs low",
+          "icon": "daily-earnings-arrow"
+        },
+        {
+          "label": "Customize or turn off at any time",
+          "icon": "settings-dial-side"
+        }
+      ],
+      "likeCount": 2000000,
+      "version": 0,
+      "groupId": 3,
+      "audience": "cashoutLinkUsers",
+      "listOrder": 2
+    },
+    {
+      "id": 6,
+      "productId": 103,
+      "image": "product-auto-insurance",
+      "icon": "car",
+      "title": "Save on<br/>car insurance",
+      "subtitle": "Easily compare quotes from top providers, powered by Insurify{SUPERSCRIPT_ONE}",
+      "descriptions": [
+        {
+          "label": "Quotes starting from $29/mo{SUPERSCRIPT_TWO}",
+          "icon": "car"
+        },
+        {
+          "label": "$0 fees and no prior insurance needed",
+          "icon": "sale-percent"
+        },
+        {
+          "label": "Compare personalized quotes in 5 minutes",
+          "icon": "lightning"
+        }
+      ],
+      "likeCount": 35000,
+      "version": 0,
+      "groupId": 1,
+      "audience": "discoveryPageAndTileControl",
+      "listOrder": 5,
+      "secondaryInlineButtonTitle": "View disclosures"
+    },
+    {
+      "id": 6,
+      "productId": 103,
+      "image": "product-auto-insurance",
+      "icon": "car",
+      "title": "Save on<br/>car insurance",
+      "subtitle": "Easily compare quotes from top providers, powered by Insurify",
+      "descriptions": [
+        {
+          "label": "Quotes starting from $29/mo",
+          "icon": "car"
+        },
+        {
+          "label": "$0 fees and no prior insurance needed",
+          "icon": "sale-percent"
+        },
+        {
+          "label": "Compare personalized quotes in 5 minutes",
+          "icon": "lightning"
+        }
+      ],
+      "likeCount": 35000,
+      "version": 0,
+      "groupId": 1,
+      "audience": "discoveryPageOnlyControl",
+      "listOrder": 6
+    },
+    {
+      "id": 7,
+      "productId": 110,
+      "image": "product-direct-deposit",
+      "icon": "direct-deposit",
+      "title": "Get paid<br/>sooner",
+      "descriptions": [
+        {
+          "label": "Increase your Pay Period Max limit by $50-$300³",
+          "icon": "piggy-bank"
+        },
+        {
+          "label": "Get paid up to 2 days early¹",
+          "icon": "direct-deposit-side"
+        }
+      ],
+      "likeCount": 577000,
+      "version": 0,
+      "groupId": 1,
+      "audience": "enrollmentNotStarted",
+      "listOrder": 2,
+      "secondaryInlineButtonTitle": "How it works",
+      "tertiaryInlineButtonTitle": "View disclosures"
+    },
+    {
+      "id": 7,
+      "productId": 110,
+      "image": "product-direct-deposit",
+      "icon": "direct-deposit",
+      "title": "Early Pay",
+      "descriptions": [
+        {
+          "label": "Increase your Pay Period Max limit by $50-$300³",
+          "icon": "piggy-bank"
+        },
+        {
+          "label": "Get paid up to 2 days early¹",
+          "icon": "direct-deposit-side"
+        }
+      ],
+      "likeCount": 577000,
+      "version": 0,
+      "groupId": 1,
+      "audience": "enrollmentCompleteDDActive",
+      "listOrder": 2,
+      "secondaryInlineButtonTitle": "How it works",
+      "tertiaryInlineButtonTitle": "View disclosures"
+    },
+    {
+      "id": 9,
+      "productId": 109,
+      "image": "product-layoff-protection",
+      "icon": "briefcase",
+      "title": "Get layoff<br/>protection",
+      "subtitle": "Life is unpredictable. Layoff insurance by Harmonic can help you stay financially afloat if you’re unexpectedly laid off.",
+      "descriptions": [
+        {
+          "label": "Have a safety net for just $9.95/month, cancel anytime",
+          "icon": "currency-dollar-shield"
+        },
+        {
+          "label": "Access $2,000 if you’re laid off involuntarily",
+          "icon": "piggy-bank"
+        }
+      ],
+      "likeCount": 0,
+      "version": 0,
+      "groupId": 1,
+      "audience": "eligibleForAll",
+      "listOrder": 5,
+      "legalDisclaimer": {
+        "legalText": "Subject to applicable terms and conditions",
+        "shouldShowCheckBox": false,
+        "shouldShowDisclaimerAfterTransition": false,
+        "externalLinks": {
+          "terms and conditions": "https://www.harmonicft.com/legal-compliance-earnin"
+        }
+      },
+      "secondaryInlineButtonTitle": "How it works"
+    },
+    {
+      "id": 10,
+      "productId": 111,
+      "image": "product-roadside-assistance",
+      "icon": "tow-truck",
+      "title": "Get roadside assistance",
+      "subtitle": "We've partnered with Way+ to offer you exclusive roadside assistance plans.",
+      "descriptions": [],
+      "likeCount": 0,
+      "version": 0,
+      "groupId": 1,
+      "audience": "roadsideAssistanceListOnly",
+      "listOrder": 9,
+      "isTableDescription": true
+    },
+    {
+      "id": 11,
+      "productId": 112,
+      "image": "calendar+check",
+      "icon": "bills",
+      "title": "Try out<br/>Bill Reminders",
+      "subtitle": "Be among the first to test it out. Here’s how it works",
+      "descriptions": [
+        {
+          "label": "Easily add up to 5 bills to help avoid late fees",
+          "icon": "check-circle"
+        },
+        {
+          "label": "Set personalized reminders to stay on top of due dates",
+          "icon": "plus-circle"
+        },
+        {
+          "label": "See how earnings and cash stack up upcoming bills",
+          "icon": "bell-notification"
+        }
+      ],
+      "likeCount": 0,
+      "version": 0,
+      "groupId": 2,
+      "audience": "eligibleForAll",
+      "listOrder": 1
+    },
+    {
+      "id": 12,
+      "productId": 113,
+      "image": "product-calculator",
+      "icon": "calculator",
+      "title": "Financial<br/>Calculators",
+      "subtitle": "",
+      "descriptions": [],
+      "likeCount": 0,
+      "version": 0,
+      "groupId": 2,
+      "audience": "eligibleForAll",
+      "listOrder": 3
+    },
+    {
+      "id": 13,
+      "productId": 114,
+      "image": "product-quick-cash",
+      "icon": "make-payment",
+      "title": "Earn money testing apps",
+      "subtitle": "",
+      "descriptions": [],
+      "likeCount": 0,
+      "version": 0,
+      "groupId": 1,
+      "audience": "quickCashListOnly",
+      "listOrder": 4
+    },
+    {
+      "id": 14,
+      "productId": 115,
+      "image": "product-auto-refinance",
+      "icon": "percent",
+      "title": "Refinance your auto loan",
+      "subtitle": "We've partnered with Way.com{SUPERSCRIPT_ONE} to help you refinance your auto loan and save hundreds on your car payments",
+      "descriptions": [
+        {
+          "label": "Save up to $175 per month",
+          "icon": "percent"
+        },
+        {
+          "label": "1st payment may not be due up to 90 days{SUPERSCRIPT_TWO}",
+          "icon": "calendar-dots"
+        },
+        {
+          "label": "Check your rates with no credit impact",
+          "icon": "lightning"
+        }
+      ],
+      "likeCount": 0,
+      "version": 0,
+      "groupId": 1,
+      "audience": "autoRefinanceListOnly",
+      "listOrder": 10,
+      "legalDisclaimer": {
+        "legalText": "{SUPERSCRIPT_ONE}EarnIn is financial technology company, not a bank. Way.com acts as an intermediary that can help connect you with several lenders in the United States. {SUPERSCRIPT_TWO}Eligiblity criteria varies depending on lender and the program you qualify for.",
+        "shouldShowCheckBox": false,
+        "shouldShowDisclaimerAfterTransition": false,
+        "externalLinks": {}
+      }
+    },
+    {
+      "id": 15,
+      "productId": 116,
+      "image": "product-adjoe",
+      "icon": "make-payment",
+      "title": "Play games, earn up to $100/month",
+      "subtitle": "Cash rewards are deposited to your Tip Yourself account. Transfer out anytime.",
+      "descriptions": [],
+      "likeCount": 0,
+      "version": 0,
+      "groupId": 1,
+      "audience": "adjoeControlListOnly",
+      "listOrder": 3,
+      "legalDisclaimer": {
+        "legalText": "By clicking Get started, you agree to our Gaming Terms & Conditions and Privacy Policy. You also agree to be transferred to the gaming experience powered by Playtime via adjoe where their Terms and Conditions apply.",
+        "shouldShowCheckBox": false,
+        "shouldShowDisclaimerAfterTransition": false,
+        "externalLinks": {
+          "Gaming Terms & Conditions": "https://www.earnin.com/privacyandterms/gaming",
+          "Privacy Policy": "https://www.earnin.com/privacy/full-privacy",
+          "Terms and Conditions": "https://adjoe.zone/legal/en/terms_of_use.html"
+        }
+      },
+      "secondaryInlineButtonTitle": "Learn more"
+    },
+    {
+      "id": 16,
+      "productId": 117,
+      "image": "product-personal-loan",
+      "icon": "coins-hand",
+      "title": "Get personalized loan offers",
+      "subtitle": "We’ve partnered with AmONE, a loan marketplace to help you find personalized loan offers.",
+      "descriptions": [
+        {
+          "label": "Rates as low as 6.49% APR¹",
+          "icon": "percent"
+        },
+        {
+          "label": "Loan amounts starting from $2,000²",
+          "icon": "coins-hand"
+        },
+        {
+          "label": "Check your eligibility with no credit impact³",
+          "icon": "lightning"
+        }
+      ],
+      "likeCount": 0,
+      "version": 0,
+      "groupId": 1,
+      "audience": "eligibleForAll",
+      "listOrder": 8,
+      "secondaryInlineButtonTitle": "View disclosures"
+    },
+    {
+      "id": 17,
+      "productId": 102,
+      "image": "product-earnin-card",
+      "icon": "daily-earnings-arrow",
+      "title": "Get paid<br/>in real time",
+      "descriptions": [
+        {
+          "label": "Get up to $1,500/pay period with Live Pay, only on EarnIn Card¹",
+          "icon": "daily-earnings-dots"
+        },
+        {
+          "label": "Build your credit history with every paycheck²",
+          "icon": "bar-chart-up"
+        },
+        {
+          "label": "Just $2.99/month with autopay",
+          "icon": "credit-card"
+        }
+      ],
+      "likeCount": 0,
+      "version": 0,
+      "groupId": 1,
+      "audience": "earnInCardEligible",
+      "listOrder": 0,
+      "secondaryInlineButtonTitle": "How it works",
+      "tertiaryInlineButtonTitle": "View disclosures"
+    },
+    {
+      "id": 18,
+      "productId": 102,
+      "image": "product-earnin-card",
+      "icon": "daily-earnings-arrow",
+      "title": "Get paid<br/>in real time",
+      "descriptions": [
+        {
+          "label": "Get up to $1,500/pay period with Live Pay, only on EarnIn Card¹",
+          "icon": "daily-earnings-dots"
+        },
+        {
+          "label": "Build your credit history with every paycheck²",
+          "icon": "bar-chart-up"
+        },
+        {
+          "label": "Just $2.99/month with autopay",
+          "icon": "credit-card"
+        }
+      ],
+      "likeCount": 0,
+      "version": 0,
+      "groupId": 1,
+      "audience": "earnInCardWaitlistEligible",
+      "listOrder": 0,
+      "legalDisclaimer": {
+        "legalText": "By tapping Join the waitlist, you agree to the Waitlist Terms and Conditions.",
+        "shouldShowCheckBox": false,
+        "shouldShowDisclaimerAfterTransition": false,
+        "externalLinks": {
+          "Waitlist Terms and Conditions.": "https://www.earnin.com/privacyandterms/earnin-card/terms-of-service"
+        }
+      },
+      "secondaryInlineButtonTitle": "How it works",
+      "tertiaryInlineButtonTitle": "View disclosures"
+    },
+    {
+      "id": 19,
+      "productId": 118,
+      "image": "product-cashback-rewards",
+      "icon": "make-payment",
+      "title": "Get cash back on daily purchases",
+      "descriptions": [
+        {
+          "label": "Find gas, grocery and dining offers",
+          "icon": "percent"
+        },
+        {
+          "label": "Use often to earn an avg of $270/yr",
+          "icon": "coins-hand"
+        },
+        {
+          "label": "Pay with a debit card linked to EarnIn",
+          "icon": "credit-card-activate"
+        },
+        {
+          "label": "Get cash back in your existing Tip Yourself account, or open an account to access rewards",
+          "icon": "piggy-bank"
+        }
+      ],
+      "likeCount": 0,
+      "version": 0,
+      "groupId": 1,
+      "audience": "cashbackRewardsListOnly",
+      "listOrder": 6,
+      "legalDisclaimer": {
+        "legalText": "By clicking Get started, you agree to EarnIn's Cash Back Agreement and EarnIn's Privacy Policy. You also agree to be transferred to the cash back experience powered by Upside where Upside's Terms and Conditions and Upside's Privacy Policy apply.",
+        "shouldShowCheckBox": false,
+        "shouldShowDisclaimerAfterTransition": false,
+        "externalLinks": {
+          "EarnIn's Cash Back Agreement": "https://www.earnin.com/privacyandterms/cash-back-rewards-terms",
+          "EarnIn's Privacy Policy": "https://www.earnin.com/privacy",
+          "Upside's Terms and Conditions": "https://www.upside.com/data-and-security/terms",
+          "Upside's Privacy Policy": "https://www.upside.com/data-and-security/privacy-policy"
+        }
+      }
+    },
+    {
+      "id": 20,
+      "productId": 119,
+      "image": "affordable-benefits-icon",
+      "icon": "medical-circle",
+      "title": "Get health benefits",
+      "descriptions": [
+        {
+          "label": "Life insurance benefits, discounts on dental, vision, chiropractic, doctor visits, prescriptions and more",
+          "icon": "medical-circle"
+        },
+        {
+          "label": "Only $1/week each¹",
+          "icon": "piggy-bank"
+        },
+        {
+          "label": "Doesn’t affect your existing insurance. Get more discounts on top.",
+          "icon": "check-circle"
+        },
+        {
+          "label": "Cancel anytime",
+          "icon": "check-circle"
+        }
+      ],
+      "likeCount": 0,
+      "version": 0,
+      "groupId": 1,
+      "audience": "affordableBenefitsListOnly",
+      "listOrder": 7,
+      "legalDisclaimer": {
+        "legalText": "{SUPERSCRIPT_ONE}You will be billed according to your chosen plan either: weekly, quarterly, or annually. EarnIn may receive compensation from your Avibra membership or renewal.<br/><br/>By clicking Get started, you agree to be transferred to an experience powered by Avibra, where Avibra’s Privacy Policy and Terms of Service will apply. Benefits are offered by Avibra, a licensed insurance producer.",
+        "shouldShowCheckBox": false,
+        "shouldShowDisclaimerAfterTransition": false,
+        "externalLinks": {
+          "Privacy Policy": "https://avibra.com/privacy-policy",
+          "Terms of Service": "https://avibra.com/terms-of-service"
+        }
+      }
+    },
+    {
+      "id": 21,
+      "productId": 116,
+      "image": "product-adjoe",
+      "icon": "make-payment",
+      "title": "Play games, earn up to $100/month",
+      "descriptions": [],
+      "likeCount": 0,
+      "version": 0,
+      "groupId": 1,
+      "audience": "adjoeTopPlayers",
+      "listOrder": 3,
+      "containsCustomView": true,
+      "legalDisclaimer": {
+        "legalText": "By clicking Get started, you agree to our Gaming Terms & Conditions and Privacy Policy. You also agree to be transferred to the gaming experience powered by Playtime via adjoe where their Terms and Conditions apply.",
+        "shouldShowCheckBox": false,
+        "shouldShowDisclaimerAfterTransition": false,
+        "externalLinks": {
+          "Gaming Terms & Conditions": "https://www.earnin.com/privacyandterms/gaming",
+          "Privacy Policy": "https://www.earnin.com/privacy/full-privacy",
+          "Terms and Conditions": "https://adjoe.zone/legal/en/terms_of_use.html"
+        }
+      }
+    },
+    {
+      "id": 22,
+      "productId": 116,
+      "image": "product-adjoe",
+      "icon": "make-payment",
+      "title": "Play games, earn up to $100/month",
+      "subtitle": "Cash rewards are deposited to your Tip Yourself account. Transfer out anytime.",
+      "descriptions": [],
+      "likeCount": 0,
+      "version": 0,
+      "groupId": 1,
+      "audience": "adjoeStats",
+      "listOrder": 3,
+      "containsCustomView": true,
+      "legalDisclaimer": {
+        "legalText": "By clicking Get started, you agree to our Gaming Terms & Conditions and Privacy Policy. You also agree to be transferred to the gaming experience powered by Playtime via adjoe where their Terms and Conditions apply.",
+        "shouldShowCheckBox": false,
+        "shouldShowDisclaimerAfterTransition": false,
+        "externalLinks": {
+          "Gaming Terms & Conditions": "https://www.earnin.com/privacyandterms/gaming",
+          "Privacy Policy": "https://www.earnin.com/privacy/full-privacy",
+          "Terms and Conditions": "https://adjoe.zone/legal/en/terms_of_use.html"
+        }
+      },
+      "secondaryInlineButtonTitle": "Learn more"
+    },
+    {
+      "id": 15,
+      "productId": 116,
+      "image": "product-adjoe",
+      "icon": "make-payment",
+      "title": "Play games, earn up to $100/month",
+      "subtitle": "Cash rewards are deposited to your Tip Yourself account. Transfer out anytime.",
+      "descriptions": [],
+      "likeCount": 0,
+      "version": 0,
+      "groupId": 1,
+      "audience": "adjoeControl",
+      "listOrder": 3,
+      "legalDisclaimer": {
+        "legalText": "By clicking Get started, you agree to our Gaming Terms & Conditions and Privacy Policy. You also agree to be transferred to the gaming experience powered by Playtime via adjoe where their Terms and Conditions apply.",
+        "shouldShowCheckBox": false,
+        "shouldShowDisclaimerAfterTransition": false,
+        "externalLinks": {
+          "Gaming Terms & Conditions": "https://www.earnin.com/privacyandterms/gaming",
+          "Privacy Policy": "https://www.earnin.com/privacy/full-privacy",
+          "Terms and Conditions": "https://adjoe.zone/legal/en/terms_of_use.html"
+        }
+      },
+      "secondaryInlineButtonTitle": "Learn more"
+    },
+    {
+      "id": 23,
+      "productId": 118,
+      "image": "product-cashback-rewards",
+      "icon": "make-payment",
+      "title": "Earn up to 24¢ per gallon",
+      "descriptions": [
+        {
+          "label": "Find gas, grocery and dining offers",
+          "icon": "percent"
+        },
+        {
+          "label": "Use often to earn an avg of $270/yr",
+          "icon": "coins-hand"
+        },
+        {
+          "label": "Pay with a debit card linked to EarnIn",
+          "icon": "credit-card-activate"
+        },
+        {
+          "label": "Get cash back in your existing Tip Yourself account, or open an account to access rewards",
+          "icon": "piggy-bank"
+        }
+      ],
+      "likeCount": 0,
+      "version": 0,
+      "groupId": 1,
+      "audience": "cashbackRewards24cGasBonusListOnly",
+      "listOrder": 6,
+      "legalDisclaimer": {
+        "legalText": "By clicking Get started, you agree to EarnIn's Cash Back Agreement and EarnIn's Privacy Policy. You also agree to be transferred to the cash back experience powered by Upside where Upside's Terms and Conditions and Upside's Privacy Policy apply.",
+        "shouldShowCheckBox": false,
+        "shouldShowDisclaimerAfterTransition": false,
+        "externalLinks": {
+          "EarnIn's Cash Back Agreement": "https://www.earnin.com/privacyandterms/cash-back-rewards-terms",
+          "EarnIn's Privacy Policy": "https://www.earnin.com/privacy",
+          "Upside's Terms and Conditions": "https://www.upside.com/data-and-security/terms",
+          "Upside's Privacy Policy": "https://www.upside.com/data-and-security/privacy-policy"
+        }
+      }
+    }
+  ],
+  "groups": [
+    {
+      "id": 1,
+      "title": "Income & Spending",
+      "description": "",
+      "icon": "currency-dollar-circle",
+      "backgroundColor": "#FFF3AF",
+      "order": 0
+    },
+    {
+      "id": 2,
+      "title": "Account Insights",
+      "description": "",
+      "icon": "bar-chart-up",
+      "backgroundColor": "#B7ECBD",
+      "order": 1
+    },
+    {
+      "id": 3,
+      "title": "Automations",
+      "description": "",
+      "icon": "settings-dial-up",
+      "backgroundColor": "#D5C2FE",
+      "order": 2
+    }
+  ]
+}
