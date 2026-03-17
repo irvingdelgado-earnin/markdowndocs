@@ -3,7 +3,7 @@
   "lightStyle": {
     "backgroundColor": "EBF0FF",
     "title": {
-      "text": "Switch to $25/mo AT&T and T-Mobile Unlimited Plans",
+      "text": "Get T-Mobile & AT&T Unlimited for up to $25/mo with Previ",
       "textColor": "000000"
     },
     "leftImageUrl": "https://d3jlszua3q4cyr.cloudfront.net/content/mobile/v1/home-template-card/previ/previ{IMAGE EXTENSION}",
@@ -26,7 +26,7 @@
   "darkStyle": {
     "backgroundColor": "EBF0FF",
     "title": {
-      "text": "Switch to $25/mo AT&T and T-Mobile Unlimited Plans",
+      "text": "Get T-Mobile & AT&T Unlimited for up to $25/mo with Previ",
       "textColor": "000000"
     },
     "leftImageUrl": "https://d3jlszua3q4cyr.cloudfront.net/content/mobile/v1/home-template-card/previ/previ{IMAGE EXTENSION}",
