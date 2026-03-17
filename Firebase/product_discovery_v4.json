@@ -966,16 +966,42 @@
       "icon": "phone",
       "title": "Get $25/month mobile plans",
       "descriptions": [
-        { "label": "Get AT&T and T-Mobile unlimited plans for up to $25/mo per line", "icon": "check-circle" },
-        { "label": "Avg member saves up to $1,050/yr", "icon": "check-circle" },
-        { "label": "Transfer up to 5 lines from any U.S. carrier", "icon": "check-circle" },
-        { "label": "Device financing, as low as 0%, on new phones for up to 24 months", "icon": "check-circle" },
-        { "label": "First year of membership is free, $99/yr afterwards", "icon": "check-circle" }
+        {
+          "label": "Get AT&T and T-Mobile unlimited plans for up to $25/mo per line",
+          "icon": "check-circle"
+        },
+        {
+          "label": "Avg member saves up to $1,050/yr",
+          "icon": "check-circle"
+        },
+        {
+          "label": "Transfer up to 5 lines from any U.S. carrier",
+          "icon": "check-circle"
+        },
+        {
+          "label": "Device financing, as low as 0%, on new phones for up to 24 months",
+          "icon": "check-circle"
+        },
+        {
+          "label": "First year of membership is free, $99/yr afterwards",
+          "icon": "check-circle"
+        }
       ],
+      "likeCount": 0,
+      "version": 0,
       "groupId": 1,
       "audience": "eligibleForAll",
       "listOrder": 11,
-      "secondaryInlineButtonTitle": "Terms apply"
+      "secondaryInlineButtonTitle": "Terms apply",
+      "legalDisclaimer": {
+        "legalText": "By clicking Get started , you agree to be transferred to an experience powered by Previ, where Previ’s Privacy Policy and Terms of Service will apply",
+        "shouldShowCheckBox": false,
+        "shouldShowDisclaimerAfterTransition": false,
+        "externalLinks": {
+          "Privacy Policy": "https://help.previ.com/privacy-policy",
+          "Terms of Service": "https://help.previ.com/terms-and-conditions"
+        }
+      }
     }
   ],
   "groups": [
