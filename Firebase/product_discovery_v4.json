@@ -179,6 +179,16 @@
       "backgroundColor": "#FFF3AF",
       "audience": "adjoeTopPlayers",
       "homeTileOrder": 2
+    },
+    {
+      "id": 14,
+      "productId": 121,
+      "icon": "phone",
+      "title": "Save on mobile bill",
+      "version": 0,
+      "backgroundColor": "#B3C6FD",
+      "audience": "eligibleForAll",
+      "homeTileOrder": 9
     }
   ],
   "discoveryPageProducts": [
@@ -948,6 +958,24 @@
           "Upside's Privacy Policy": "https://www.upside.com/data-and-security/privacy-policy"
         }
       }
+    },
+    {
+      "id": 24,
+      "productId": 121,
+      "image": "product-previ",
+      "icon": "phone",
+      "title": "Get $25/month mobile plans",
+      "descriptions": [
+        { "label": "Get AT&T and T-Mobile unlimited plans for up to $25/mo per line", "icon": "check-circle" },
+        { "label": "Avg member saves up to $1,050/yr", "icon": "check-circle" },
+        { "label": "Transfer up to 5 lines from any U.S. carrier", "icon": "check-circle" },
+        { "label": "Device financing, as low as 0%, on new phones for up to 24 months", "icon": "check-circle" },
+        { "label": "First year of membership is free, $99/yr afterwards", "icon": "check-circle" }
+      ],
+      "groupId": 1,
+      "audience": "eligibleForAll",
+      "listOrder": 11,
+      "secondaryInlineButtonTitle": "Terms apply"
     }
   ],
   "groups": [
